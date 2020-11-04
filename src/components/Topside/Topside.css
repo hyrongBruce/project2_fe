@@ -1,0 +1,9 @@
+.Topside{
+    display: inline-block;
+    /* justify-content: space-between; */
+    /* padding: 20 20px; */
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    min-width: 400px;
+}

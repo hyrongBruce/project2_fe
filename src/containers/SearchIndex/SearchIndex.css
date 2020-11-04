@@ -1,0 +1,36 @@
+.p-autocomplete-input {
+    width: 250px;   
+    padding-right: 25px !important;
+}
+
+
+.p-dropdown-label{
+    background-color: #d9d9d9 !important; 
+}
+.p-dropdown-trigger{
+    background-color: transparent !important;
+}
+
+div.SearchIndex-Area{
+    width: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    vertical-align: middle;
+}
+
+i.SearchButton{
+    vertical-align: middle;
+    color: darkslategray;
+    position: absolute;
+    padding-top: 5px;
+    padding-right: 5px;
+    /* vertical-align: middle; */
+}
+
+i.SearchButton:hover{
+    cursor: pointer;
+}
+
+i.SearchButton:active{
+    color: #a9a9a9;
+}

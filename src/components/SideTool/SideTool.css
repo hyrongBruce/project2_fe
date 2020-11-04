@@ -1,0 +1,86 @@
+.SideBarPanel{
+    border: 1px darkgray solid;
+    width: 260px;
+}
+.SideBarPanel-Accordion{
+    background-color: darkgrey;
+    width: 260px;
+    margin-bottom: -2px;
+}
+.mySideBarPanel-ButtonArea{
+    margin-left: 50px;
+    height: 36px;
+    /* vertical-align: middle; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* text-align: end; */
+}
+.mySideBarPanel-ButtonArea-Button{
+    height: 28px;
+    width: 60px;
+    font-size: 14px;
+    margin-right: 10px;
+    border: 0;
+    background-color: #7f7f7f;
+    color: white;
+}
+.mySideBarPanel-ButtonArea-Span{
+    font-size: 16px;
+    border: 0;
+    color: #595959;
+}
+.mySideBarPanel-ButtonArea-Button:hover{
+    background-color: #5f5f5f
+}
+.mySideBarPanel-ButtonArea-Button:active{
+    background-image: radial-gradient(#cfcfcf,#5f5f5f)
+}
+
+.myAccordionContent{
+    font-size: 11px
+}
+.myAccordionHeader{
+    font-size: 12px
+}
+
+.mySliderTitles{
+    font-weight: bold;
+    font-size: 13px;
+    vertical-align: center;
+}
+
+span.mySliderTitles{
+    padding-left: 10px;
+}
+
+.mySlider{
+    height: 20px;
+    width: 100px;
+    vertical-align: center;
+}
+
+.mySliderTextValues{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+}
+
+.mySliderBox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.mySliderValueLeftBox{
+    margin-right: 10px;
+    left: 0;
+}
+.mySliderValueRightBox{
+    margin-left: 10px;
+    right: 0;
+}

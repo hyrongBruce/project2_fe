@@ -1,0 +1,33 @@
+.myAvatarLayout{
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+    padding: 5px;
+}
+
+div.myAvatarName{
+    padding-right: 10px;
+    align-self: center;
+    text-align: center;
+}
+
+p.myAvatarName{
+    font-weight: bold; 
+    font-size: 20px;
+    height: 10px;
+}
+
+div.myAvatarLayout:hover{
+    /* border: 1px solid gray;
+    box-shadow: 3px 3px 2px 1px lightblue;
+    margin: 0; */
+    background-color: #b9d8fd;
+    cursor: pointer;
+}
+
+
+.myPopupOverlay{
+    width: 200px;
+    margin-right: 20px;
+    padding-right: 30px;
+}

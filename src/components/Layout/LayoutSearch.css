@@ -1,0 +1,14 @@
+.LayoutSearch-total{
+    min-height: 100vh;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LayoutSearch-header{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row-reverse;
+}

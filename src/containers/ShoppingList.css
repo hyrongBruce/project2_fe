@@ -1,0 +1,117 @@
+.ProductListZoneBox{
+    width: 100%;
+    display: grid;
+    justify-content: start;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 190px));
+    /* grid-auto-flow: row; */
+    grid-auto-rows: 330px;
+    grid-auto-columns: 190px;
+}
+
+.ProductListBox{
+    display: inline-block;
+    border: 1px solid #d5d5d5;
+    text-align: center;
+    /* width: 200px;
+    height: 250px; */
+    margin: 3px;
+    margin-top: 2px;
+}
+.ProductListBox:hover{
+    border: 2px solid #007ad9;
+    padding:1px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.ProductProperties-blank{
+    font-size: 12px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+p.ProductProperties-gray{
+    font-size: 12px;
+    color: #595959;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 500
+}
+div.ProductProperties-gray{
+    background-color: #e5e5e5;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: auto;
+}
+
+p.ProductProperties-red{
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    color: crimson;
+    font-weight: 500;
+}
+
+div.ProductProperties-red{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+p.ProductTitle{
+    font-size: 14px;
+    font-weight: 700;
+    color: #1f4f7a;
+    margin-bottom: 1px;
+    margin-top: 0px;
+    word-wrap: break-word;
+}
+div.ProductTitle:hover > p{
+    color: #007ad9;
+    cursor: pointer;
+}
+
+.ProductImage:hover{
+    cursor: pointer;
+}
+
+div.ProductTitle{
+    word-wrap: break-word;
+    width: 90%;
+    margin-left: 6%;
+}
+
+div.operateZone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+span.operateZoneText{
+    font-size: 12px;
+    font-weight: 600;
+    color: #595959;
+    margin-right: 20px;
+}
+
+.operateZone-Button{
+    width: 55px;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 12px;
+    border: 0;
+    background-color: #007ad9;
+    color: white;
+}
+.operateZone-ButtonDiv{
+}
+
+
+header.Breadcrumb{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,45 @@
+div.Auth {
+    margin: 20px auto;
+    width: 50%;
+    min-width: 250px;
+    text-align: center;
+    padding: 10px;
+    align-content: center;
+    align-items: center
+}
+
+div.form{
+    display: grid;
+}
+
+.ButtonArea{
+    position: absolute;
+    right: 30%;
+    /* width: 300px; */
+    padding: 10px;
+}
+
+input.inputArea{
+    line-height: 1rem; 
+    margin-bottom: 1em;
+    width: 50%;
+    padding-right: 20px;
+    height: 28px;
+}
+
+input.p-inputtext{
+    font-size: 14px;
+}
+
+div.inputDiv{
+    position: relative;
+}
+
+i.Inputicon{
+    top:10%;
+    right: 1%;
+    color: darkslategray;
+    padding-right: 25%;
+    vertical-align: center;
+    position: absolute;
+}

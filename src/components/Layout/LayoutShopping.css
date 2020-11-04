@@ -1,0 +1,13 @@
+.BodyOverlay{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  
+  .LeftBarOverlay{
+      width: 280px;
+  }
+  .RightBoxOverlay{
+      box-sizing: border-box;
+      flex-grow: 1;
+  }
